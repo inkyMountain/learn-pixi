@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "pixi.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "less": "^3.11.1"
   }
 }
