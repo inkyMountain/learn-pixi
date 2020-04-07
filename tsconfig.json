@@ -3,14 +3,11 @@
     "strict": false,
     "module": "commonjs",
     "moduleResolution": "node",
-    "types": [
-      "node"
-    ],
     "target": "es5",
     "sourceMap": true,
     "declaration": true,
     "lib": [
-      "es2017",
+      "esnext",
       "dom"
     ],
     "noUnusedLocals": true,
@@ -18,14 +15,17 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "experimentalDecorators": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "resolveJsonModule": true
   },
   "include": [
-    "**/*.ts",
-    "src/declaration.d.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
     ".git",
-    "node_modules"
+    "node_modules",
+    ".idea",
+    ".cache",
+    ".vscode"
   ]
 }

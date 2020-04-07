@@ -1,15 +1,11 @@
-declare module '*.png' {
-  const src: any;
-  export default src;
-}
+declare module '*.svg'
 declare module '*.png'
+declare module '*.jpg'
+declare module '*.jpeg'
+declare module '*.gif'
+declare module '*.json'
 
-declare module '*.jpg' {
-  const src: any;
-  export default src;
-}
-
-export interface PixiAppConstructOptions {
+interface PixiAppConstructOptions {
   autoStart?: boolean;
   width?: number;
   height?: number;
@@ -28,3 +24,4 @@ export interface PixiAppConstructOptions {
   sharedLoader?: boolean;
   resizeTo?: Window | HTMLElement;
 }
+
