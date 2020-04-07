@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "**/*.ts",
+    "src/declaration.d.ts"
+  ],
+  "exclude": [
+    ".git",
+    "node_modules"
+  ]
+}
