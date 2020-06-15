@@ -1,5 +1,7 @@
-import initialize from './scripts/initialize';
+import initializePixi from './scripts/initializePixi';
 
-initialize().then(sprites => {
+initializePixi().then(sprites => {
   console.log('Initilize finish. Sprites: ', sprites);
 });
+
+
